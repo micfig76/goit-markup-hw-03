@@ -2,15 +2,26 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    margin: 0px;
 }
 
 .top-menu {
+    display: flex;
     background-color: #E7E9FC;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 21px;
+    align-items: center;
 
+}
+
+.top-menu-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 40px;
+   
 }
 
 .logo {
@@ -28,10 +39,16 @@ body {
 }
 
 .contact-details {
+    display: flex;
     font-weight: 400;
     font-style: normal;
 }
 
+.contact-list {
+    display: flex;
+    list-style-type: none;
+
+}
 .motto {
     background-color: #2E2F42;
     font-size: 56px;
