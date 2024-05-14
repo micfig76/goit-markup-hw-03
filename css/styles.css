@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    margin: 0px;
+    margin: 0;
 }
 
 .top-menu {
@@ -13,18 +13,23 @@ body {
     font-size: 16px;
     line-height: 21px;
     align-items: center;
+    padding: 0 24px;
 
+    justify-content: space-between;
 }
 
 .top-menu-list {
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
+    padding: 0;
+    margin: 0;
     gap: 40px;
-   
+    list-style-type: none;
+    text-decoration: none;
 }
 
 .logo {
+    display: flex;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -32,10 +37,23 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
+    justify-content: right;
 }
 
 .logo-colour {
     color: #2e2f42;
+
+}
+
+.list-item {
+    color: #2e2f42;
+    text-decoration: none;
+
+}
+
+.list-item:hover {
+    text-decoration: underline;
 }
 
 .contact-details {
@@ -47,8 +65,10 @@ body {
 .contact-list {
     display: flex;
     list-style-type: none;
+    gap: 24px;
 
 }
+
 .motto {
     background-color: #2E2F42;
     font-size: 56px;
@@ -61,6 +81,8 @@ body {
     font-size: 56px;
     letter-spacing: 0.02em;
     color: #ffffff;
+    padding: 0;
+    margin: 0;
 }
 
 .btn {
