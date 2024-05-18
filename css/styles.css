@@ -70,10 +70,11 @@ body {
 }
 
 .motto {
-    background-image: linear-gradient(0deg, #2e2f4299,  #2e2f4299), url(/images/people-office1.jpg);
+    background-image: linear-gradient(0deg, #2e2f4299, #2e2f4299), url(/images/people-office1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: calc(100vh - 200px);
+    height: 600px;
+    width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,6 +118,25 @@ body {
 
 .btn:focus {
     background-color: #404bbf;
+}
+
+
+.values {
+    display: flex;
+}
+
+.value-one {
+    list-style-type: none;
+    border: 1px solid silver;
+    margin: 300px 300px;
+
+
+}
+
+.value-one-text {
+    font-size: 16px;
+    font-weight: 400;
+
 }
 
 .team {
