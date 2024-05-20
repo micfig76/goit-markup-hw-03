@@ -14,16 +14,17 @@ body {
     line-height: 21px;
     align-items: center;
     padding: 0 24px;
-    border-radius: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
     justify-content: space-between;
 }
 
-.top-menu-container {
+.top-menu-container .container{
     display: flex;
     width: 1158px;
+    margin: 0 auto;
     justify-content: space-between;
     padding: 0 15px;
-    margin: 0 auto;
+   
 
     text-decoration: none;
 }
