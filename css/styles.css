@@ -123,31 +123,23 @@ body {
 
 .values {
     display: flex;
-}
-
-.value-one {
     list-style-type: none;
-    border: 1px solid silver;
-    margin: 300px 300px;
-
-
-}
-
-.value-one-text {
-    font-size: 16px;
-    font-weight: 400;
-
 }
 
 .team {
+    display: flex;
+    flex-direction: column;
     background-color: #F4F4FD;
     line-height: 1.11;
     text-transform: capitalize;
     color: #2E2F42;
+    
 
 }
 
 .team-head {
+    display: flex;
+    justify-content: center;
     line-height: 1.11;
     font-size: 20px;
     line-height: 1.2;
@@ -157,22 +149,24 @@ body {
     letter-spacing: 0.02em;
 }
 
-.team-one {
-    background-color: #FFFFFF;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+.team-slates {
+    display: flex;
+    list-style-type: none;
 }
 
-.team-one-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.portfolio {
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-head {
+    display:flex;
+    justify-content: center;
 
 }
-
+ .portfolio-slates {
+    display: flex;
+    list-style-type: none;
+ }
 .first {
     line-height: 1.5;
     letter-spacing: 0.02em;
