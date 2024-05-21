@@ -18,14 +18,17 @@ body {
     justify-content: space-between;
 }
 
-.top-menu-container .container{
+.container {
     display: flex;
     width: 1158px;
     margin: 0 auto;
-    justify-content: space-between;
     padding: 0 15px;
-   
+}
 
+.top-menu-container .container {
+    display: flex;
+
+    justify-content: space-between;
     text-decoration: none;
 }
 
@@ -83,7 +86,7 @@ body {
 .contact-list {
     display: flex;
     list-style-type: none;
-    gap: 24px;
+    gap: 40px;
 
 }
 
