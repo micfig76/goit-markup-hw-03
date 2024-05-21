@@ -161,7 +161,9 @@ body {
 .value-one-head {
     margin-bottom: 8px;
 }
-
+.visually-hidden {
+    
+}
 .team {
     display: flex;
     flex-direction: column;
