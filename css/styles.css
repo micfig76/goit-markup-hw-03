@@ -144,10 +144,23 @@ body {
     background-color: #404bbf;
 }
 
-
 .values {
     display: flex;
     list-style-type: none;
+    padding: 120px 0;
+}
+
+.values-list {
+    display: flex;
+    gap: 24px;
+}
+
+.value-one {
+    width: calc((100%-72px)/4);
+}
+
+.value-one-head {
+    margin-bottom: 8px;
 }
 
 .team {
