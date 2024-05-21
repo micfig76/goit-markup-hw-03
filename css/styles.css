@@ -102,12 +102,13 @@ body {
     justify-content: center;
     gap: 20px;
     position: relative;
+    padding: 188px 0;
 }
 
 .motto-head {
     text-align: center;
     word-wrap: break-word;
-    max-width: 500px;
+    max-width: 496px;
 
     font-size: 56px;
     letter-spacing: 0.02em;
@@ -117,7 +118,8 @@ body {
 }
 
 .btn {
-    width: 169px;
+    display: block;
+    min-width: 169px;
     height: 56px;
     font-size: 16px;
     font-weight: 500;
@@ -129,6 +131,7 @@ body {
     cursor: pointer;
     padding: 16px, 32px;
     gap: 10px;
+    border: none;
     border-radius: 4px;
 
 }
