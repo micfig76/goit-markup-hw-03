@@ -52,7 +52,7 @@ body {
 
 }
 
-.top-menu-navogation {
+.top-menu-navigation {
     display: flex;
     align-items: center;
 
@@ -155,15 +155,17 @@ body {
 }
 
 .value-one {
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
 }
 
 .value-one-head {
     margin-bottom: 8px;
 }
+
 .visually-hidden {
-    
+    visibility: hidden;
 }
+
 .team {
     display: flex;
     flex-direction: column;
