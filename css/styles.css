@@ -11,6 +11,10 @@ body {
     margin: 0;
 }
 
+.img {
+    display: block;
+}
+
 .top-menu {
     display: flex;
     background-color: #E7E9FC;
