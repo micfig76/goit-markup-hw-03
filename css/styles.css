@@ -238,15 +238,17 @@ body {
 }
 
 .portfolio-head {
-    display: flex;
-    justify-content: center;
+    margin-bottom: 72px;
 
 }
 
 .portfolio-slates {
     display: flex;
-    list-style-type: none;
-}
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    
+ }
 
 .first {
     line-height: 1.5;
