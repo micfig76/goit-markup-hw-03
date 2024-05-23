@@ -28,13 +28,12 @@ img {
 }
 
 .container {
-    display: flex;
     width: 1158px;
     margin: 0 auto;
- 
+    padding: 0 15px;
 }
 
-.top-menu .container {
+.top-menu {
     display: flex;
     padding: 0 15px;
     justify-content: space-between;
