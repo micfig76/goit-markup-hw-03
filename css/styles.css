@@ -110,7 +110,7 @@ img {
     justify-content: center;
     gap: 20px;
     position: relative;
-    padding-top: 188px; 
+    padding-top: 188px;
     padding-bottom: 188px;
 }
 
@@ -218,7 +218,10 @@ img {
 }
 
 .team-field {
-    padding: 32px 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px
 }
 
 .team-one-head {
