@@ -230,7 +230,7 @@ img {
     text-align: center;
 }
 
-.portfolio .section {
+.section {
     padding-top: 120px;
     padding-bottom: 120px;
 
@@ -308,6 +308,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-family: 36px;
+}
+
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-head {
