@@ -14,7 +14,7 @@ img {
     display: block;
 }
 
-.top-menu {
+.top-menu-head {
     display: flex;
     background-color: #E7E9FC;
     text-decoration: none;
@@ -34,7 +34,7 @@ img {
  
 }
 
-.top-menu-container .container {
+.top-menu .container {
     display: flex;
     padding: 0 15px;
     justify-content: space-between;
