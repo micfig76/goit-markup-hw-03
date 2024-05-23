@@ -36,9 +36,10 @@ img {
 
 .top-menu-container .container {
     display: flex;
-
+    padding: 0 15px;
     justify-content: space-between;
     text-decoration: none;
+
 }
 
 .logo {
