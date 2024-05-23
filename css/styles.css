@@ -99,7 +99,7 @@ img {
 
 }
 
-.motto {
+.motto .section{
     background-image: linear-gradient(0deg, #2e2f4299, #2e2f4299), url(/images/people-office1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -320,27 +320,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-/* .portfolio-head {
-    font-size: 36px;
-    line-height: 1.11;
-    text-transform: capitalize;
-    color: #2E2F42;
-    text-align: center;
-    letter-spacing: 0.02em; */
-
-/* } */
-
-/* .portfolio-head-image {
-    color: #2E2F42;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-} */
-
-
-
 
 .bottom {
     background-color: #2E2F42;
