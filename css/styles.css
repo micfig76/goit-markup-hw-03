@@ -322,6 +322,7 @@ img {
 }
 
 .bottom {
+    display: inline-block;
     background-color: #2E2F42;
     padding: 100px 0;
 }
