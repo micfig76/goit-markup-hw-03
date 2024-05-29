@@ -31,9 +31,17 @@ img {
 }
 
 .container {
-      width: 1158px;
-    margin: 0 auto;
+    width: 1158px;
+    margin: auto;
     padding: 0 15px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .top-menu {
@@ -101,17 +109,11 @@ img {
 
 }
 
-.section {
-    display: flex;
-    justify-content: center;
-    
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-.motto .section {
+.motto section {
     padding-top: 188px;
     padding-bottom: 188px;
 }
+
 .motto {
     background-image: linear-gradient(0deg, #2e2f4299, #2e2f4299), url(/images/people-office1.jpg);
     background-repeat: no-repeat;
@@ -124,7 +126,7 @@ img {
     justify-content: center;
     gap: 20px;
     position: relative;
-      margin: auto;
+    margin: auto;
 }
 
 .motto-head {
@@ -220,15 +222,14 @@ img {
 .team {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-   
+    background-color: #4D5AE5;
     line-height: 1.11;
     text-transform: capitalize;
     color: #2E2F42;
     padding: 120px 0;
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
+   
+
 }
 
 .team-head {
@@ -247,6 +248,7 @@ img {
 
 .team-list {
     display: flex;
+    justify-content: start;
     list-style-type: none;
     gap: 24px;
 
@@ -266,7 +268,10 @@ img {
 .team-text {
     text-align: center;
 }
-
+.team-member {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
 
 
 .first {
@@ -300,11 +305,8 @@ img {
 .portfolio {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-
 }
-
 
 .portfolio-head {
     display: flex;
