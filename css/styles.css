@@ -31,7 +31,7 @@ img {
 }
 
 .container {
-    width: 1158px;
+      width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -102,6 +102,9 @@ img {
 }
 
 .section {
+    display: flex;
+    justify-content: center;
+    
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -212,24 +215,18 @@ img {
     font-size: 16px;
 }
 
-
-.team .container {
+.team {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0px;
+   
     line-height: 1.11;
     text-transform: capitalize;
     color: #2E2F42;
     padding: 120px 0;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-
-    width: 1440px;
-    height: 732px;
-
-    background-color: #F4F4FD;
 }
 
 .team-head {
@@ -303,7 +300,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1440px;
 
 }
 
