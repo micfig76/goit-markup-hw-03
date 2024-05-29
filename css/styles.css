@@ -27,6 +27,7 @@ img {
     justify-content: space-between;
     width: 1440px;
     height: 72px;
+    margin: auto;
 }
 
 .container {
