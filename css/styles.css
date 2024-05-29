@@ -32,7 +32,7 @@ img {
 
 .container {
     width: 1158px;
-    margin: auto;
+    margin: 0 auto;
     padding: 0 15px;
 }
 
@@ -109,7 +109,7 @@ img {
 
 }
 
-.motto section {
+.motto-section {
     padding-top: 188px;
     padding-bottom: 188px;
 }
