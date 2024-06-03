@@ -267,11 +267,6 @@ img {
 
 }
 
-.icon .icon-twitter {
-    color: #2E2F42;
-    background-color: #E7E9FC;
-}
-
 .team-member {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
@@ -377,6 +372,9 @@ img {
 }
 
 .bottom-text {
+    display: flex;
+    width: 264px;
+    height: 72px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
