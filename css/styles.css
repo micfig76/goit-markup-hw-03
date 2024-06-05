@@ -29,7 +29,7 @@ img {
 
 .top-menu-head {
     display: flex;
-    background-color: #E7E9FC;
+
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -114,7 +114,6 @@ img {
     padding-bottom: 188px;
     display: flex;
     background-color: #2E2F42;
-    height: 600px;
     width: 1440px;
     display: flex;
     margin: auto;
@@ -215,16 +214,19 @@ img {
     font-size: 16px;
 }
 
+.people {
+    background-color: #F4F4FD;
+    width: 1440px;
+    margin: auto;
+}
+
 .team {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #E7E9FC;
     line-height: 1.11;
     text-transform: capitalize;
     color: #2E2F42;
-    width: 1440px;
-    height: 732px;
     justify-content: center;
 
 }
