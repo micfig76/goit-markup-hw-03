@@ -216,7 +216,6 @@ img {
 
 .people {
     background-color: #F4F4FD;
-    width: 1440px;
     margin: auto;
 }
 
@@ -234,9 +233,6 @@ img {
 .team-head {
     display: flex;
     justify-content: center;
-    line-height: 1.11;
-    font-size: 20px;
-    line-height: 1.2;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -354,7 +350,7 @@ img {
     margin: 0px;
 }
 
-.logo-bottom {
+.bottom-logo {
     display: inline-block;
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
@@ -381,5 +377,4 @@ img {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     text-wrap: wrap;
-    width: 264px;
 }
